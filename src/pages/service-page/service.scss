@@ -1,0 +1,21 @@
+/* services.scss */
+.card {
+    margin: 0 auto; // Centraliza o card
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+.card-body {
+    background-color: #ffffff;
+    color: #333;
+}
+
+h2.text-center {
+    color: #FF8C42;
+    margin-bottom: 20px;
+}
