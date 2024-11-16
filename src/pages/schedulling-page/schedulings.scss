@@ -1,0 +1,56 @@
+/* schedulings.scss */
+html, body {
+    height: auto; // Certifique-se de que a altura seja automática
+    overflow: auto; // Permitir rolagem no nível do documento
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; // Um fundo claro para contraste
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: #ffffff;
+    width: 90%; // Ajuste conforme necessário para melhor largura
+    padding: 20px;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+    }
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column; // Organiza o conteúdo em uma coluna
+    gap: 10px; // Espaço entre os elementos
+}
+
+.card-title {
+    font-size: 20px; // Maior para destaque
+    color: #FF8C42;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5; // Melhorar a legibilidade
+}
+
+.btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+h1 {
+    color: #FF8C42;
+    text-align: center;
+    margin-bottom: 20px;
+}
